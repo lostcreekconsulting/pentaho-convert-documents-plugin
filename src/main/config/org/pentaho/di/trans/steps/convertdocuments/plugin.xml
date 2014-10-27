@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin
+    id="ConvertDocuments"
+    iconfile="page_copy.png"
+    description="Convert documents"
+    tooltip="Converts documents to different formats"
+    category="Transform"
+    classname="org.pentaho.di.trans.steps.convertdocuments.ConvertDocumentsMeta">
+    <libraries>
+        <library name="juh-3.2.1.jar"/>
+        <library name="jurt-3.2.1.jar"/>
+        <library name="ridl-3.2.1.jar"/>
+        <library name="unoil-3.2.1.jar"/>
+        <library name="jodconverter-core-1.0.5.jar"/>
+        <library name="pentaho-convert-documents-@@project.version@@.jar"/>
+    </libraries>
+</plugin>
